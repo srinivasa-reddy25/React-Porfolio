@@ -2,6 +2,9 @@
 
 body{
     background-color:var(--bg-100);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 *{
     margin: 0;
