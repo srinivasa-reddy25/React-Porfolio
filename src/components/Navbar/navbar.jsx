@@ -19,7 +19,6 @@ const Navbar=()=>{
                     <Link to="/projects" className='link active'>
                         Projects
                     </Link>
-                   
                 </li>
                 <li>
                     <Link to="/Skills" className='link active'>
