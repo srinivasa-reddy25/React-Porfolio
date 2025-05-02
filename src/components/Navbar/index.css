@@ -1,0 +1,103 @@
+@import url('../../variables.css');
+.navbar{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 35px 0px;
+    background-color: var(--bg-200);
+    border-radius: 20px;
+}
+
+.navLinks{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+
+}
+.link{
+    color: var(--text-200);
+    font-size: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+.link:hover{
+    color: var(--text-300);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+.underline{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    margin-top: 5px;
+}
+.underline li:nth-child(1){
+    width: 70px;
+    height: 5px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+.underline li:nth-child(2){
+    width: 70px;
+    height: 5px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    
+}
+.underline li:nth-child(3){
+    width: 70px;
+    height: 5px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+.underline li:nth-child(4){
+    width: 70px;
+    height: 5px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+.underline li:nth-child(5){
+    width: 70px;
+    height: 5px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+.underline li:hover{
+    background-color: var(--text-300);
+    transition: all 0.3s ease;
+} */

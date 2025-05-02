@@ -1,0 +1,34 @@
+@import url('../../variables.css');
+
+.projectsContainer{
+    /* height: 70vh; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--bg-100);
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.projectsHeading{
+    font-size: 40px;
+    color: var(--text-300);
+    font-weight: 600;
+}
+.projectsDescription{
+    font-size: 20px;
+    color: var(--text-400);
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.projectsList{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 20px;
+}

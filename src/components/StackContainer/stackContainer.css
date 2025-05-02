@@ -1,0 +1,29 @@
+@import url('../../variables.css');
+.stackContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 10px;
+    background-color: var(--bg-300);
+    padding: 20px;
+    border-radius: 10px;
+}
+.stackContainerTitle{
+    font-size: 30px;
+    color: var(--text-300);
+    font-weight: 600;
+    align-self: flex-start;
+}
+.stackContainerList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    max-width: 500px;
+    max-height: 300px;
+}

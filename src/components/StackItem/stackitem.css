@@ -1,0 +1,36 @@
+@import url('../../variables.css');
+
+.stackItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: var(--bg-200);
+    padding: 5px 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    /* margin: 10px; */
+}
+.stackItem:hover{
+    background-color: var(--bg-300);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    transform: scale(0.95);
+}
+.stackItemIcon{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-300);
+    font-size: 30px;
+}
+
+.stackItemName{
+    font-size: 15px;
+    color: var(--text-100);
+    font-weight: 600;
+    align-self: flex-end
+}

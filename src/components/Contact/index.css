@@ -1,0 +1,103 @@
+@import url('../../variables.css');
+
+.contactContainer{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-100);
+    align-self: center;
+    margin-top: 150px;
+}
+.contactContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+.contactHeading{
+    font-size: 40px;
+    color: var(--text-300);
+    font-weight: 600;
+}
+.contactDescription{
+    font-size: 20px;
+    color: var(--text-200);
+    font-weight: 400;
+}
+.contactForm{
+    height: 80%;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.contactInputs{
+    display: flex;
+    gap: 20px;
+    /* width: 100%; */
+}
+.contactInput{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 0 20px;
+    font-size: 20px;
+    color: var(--text-200);
+    background-color: var(--bg-300);
+    transition: all 0.3s ease;
+}
+.contactInput:focus{
+    outline: none;
+    border: 2px solid var(--text-300);
+}
+.subjectInput{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 0 20px;
+    font-size: 20px;
+    color: var(--text-200);
+    background-color: var(--bg-300);
+    transition: all 0.3s ease;
+}
+.contactTextarea{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    color: var(--text-200);
+    background-color: var(--bg-300);
+    transition: all 0.3s ease;
+    resize: none;
+    display: flex;
+}
+
+.contactButton{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    padding: 0 20px;
+    font-size: 20px;
+    color: var(--text-200);
+    background-color: var(--bg-300);
+    cursor: pointer;
+    transition: all 0.9s ease;
+}
+.contactButton:hover{
+    background-color: var(--bg-400);
+}
